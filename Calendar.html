@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Pagina oficinal de IMDIFACE Imagenologia y digitalizacion facial
+    Radiologia especializada">
+    <meta name="robots" content="index, follow"/>  
+    <title>-IMIDIFACE Ventas y estadistica</title>
+    <meta name=" viewport" content="width=device-width, inictia-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Calendario</title>
+</head>
+<img src="./imagenes/logoprincipal_reducido.png" 
+alt="Logo de IMDIFACE">
+<body>
+    <h1>Calendario de citas</h1>
+    <!-- <form action="">
+        <Label for="Hora">
+            <span>Hora</span>
+            <input type="time" name="Hora" id="Hora">
+        </Label>
+        <Label for="Dia">
+            <span>Dia</span>
+            <input type="date" name="Dia" id="Dia">
+        </Label>
+        <Label for="Semana">
+            <span>Semana</span>
+            <input type="week" name="Semana" id="Semana">
+        </Label>
+        <Label for="Mes">
+            <span>Mes</span>
+            <input type="month" name="Mes" id="Mes">
+        </Label>
+        <Input type="submit" />
+    </form> -->
+    <form action="">
+        <label for="Calendario">
+            <span>Calendario</span>
+            <input type="datetime-local" id="Calendario" name="Calendario" required>
+        </label>
+        <label for="Nombres">
+            <span>Nombres del paciente</span>
+            <input type="text" id="Nombres" name="Nombres" required>
+        </label>
+        <label for="Apellidos">
+            <span>Apellidos del paciente</span>
+            <input type="text" id="Apellidos" name="Apellidos" required>
+        </label>
+        <label for="Telefono">
+            <span>Telefono</span>
+            <input type="tel" id="Telefono" name="Telefono" required>
+        </label>
+        <label for="Mail">
+            <span>Correo electronico</span>
+            <input type="email" id="Mail" name="Mail" required>
+        </label>
+        <label for="Edad">
+            <span>Edad del paciente</span>
+            <input type="number" id="Edad" name="Edad" required>
+        </label>
+        <span>¿Que estudio desea?</span>
+        <input list="Estudio" />
+            <datalist id="Estudio">
+                <option value="Panoramica"></option> 
+                <option value="Lateral"></option> 
+                <option value="Postero anterior"></option>
+                <option value="Tomografia cara completa"></option>  
+                <option value="Tomografia ambos maxilares"></option> 
+                <option value="Tomografia un solo cuadrante"></option> 
+                <option value="Tomografia dos dientes"></option> 
+        </datalist>
+        </label>
+        <input type="submit" />
+    </form>
+</body>
+</html>
